@@ -157,8 +157,9 @@ img {
 
 /* SERVICES */
 .services {
+  margin-bottom: -180px;
   padding-top: 150px;
-  padding-bottom: 60px;
+  padding-bottom: 150px;
 }
 
 .site-title {
@@ -215,8 +216,26 @@ img {
 /* END OF SERVICES */
 
 .get-started {
-  background-color: #fafafa;
+  position: relative;
+  top: 180px;
   width: 88%;
+  padding: 70px 0;
+  background-color: #fafafa;
+  box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
+}
+
+.get-started-title {
+  max-width: 822px;
+  margin: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 74px;
+  color: #4d533c;
+}
+
+.get-started-link {
+  text-transform: uppercase;
 }
 
 /* FOOTER */
